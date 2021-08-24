@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 import BaseLayout from "../components/Layout/Layout"
 import { GlobalStyle } from "../style/global"
 import {Section, Content, Heading2, Heading3, Paragraph, LinkWrapper, Image } from './styles/index'
