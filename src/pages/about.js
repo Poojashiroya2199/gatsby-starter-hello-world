@@ -3,7 +3,7 @@ import BaseLayout from '../components/Layout/Layout'
 import { GlobalStyle } from '../style/global'
 import  {Content, Heading, Paragraph } from './styles/about'
 
-export default function About() {
+const About = () => {
     return (
         <>
         <GlobalStyle />
@@ -17,4 +17,6 @@ export default function About() {
         </BaseLayout>
         </>
     )
-}
+};
+
+export default About;

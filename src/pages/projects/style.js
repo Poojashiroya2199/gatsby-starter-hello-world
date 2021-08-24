@@ -1,10 +1,19 @@
 import styled from 'styled-components'
+import { Link } from 'gatsby'
+import Img from 'gatsby-image'
 
 export const Content = styled.div`
 text-align: center;
 `;
 
-export const Heading = styled.h1``;
+export const Project = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 80px;
+  margin: 80px 20px;
+`;
+
+export const Wrapper = styled.div``;
 
 export const Heading2 = styled.h2`
 font-size: 3em;
@@ -16,8 +25,22 @@ font-size: 2em;
   font-weight: 400;
 `;
 
-export const Heading4 = styled.h4``;
+export const Paragraph = styled.p`
+ color: #ccc;
+  margin-top: 4px;
+`;
 
-export const Heading5 = styled.h5``;
+export const LinkWrapper = styled(Link)`
+ color: white;
+ text-decoration: none;
+`;
 
-export const Paragraph = styled.p``;
+export const H3 = styled.h3`
+text-align: center;
+  margin: 20px auto 0px;
+  font-weight: 500;
+`;
+
+export const Image = styled(Img)`
+ max-width: 100%;
+`;

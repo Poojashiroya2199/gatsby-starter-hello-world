@@ -1,6 +1,6 @@
 import React, { Children } from 'react'
 import Navbar from '../Navbar/Navbar'
-import { BaseLayoutWrapper, Content, FooterContent, FooterWrapper } from './style';
+import { BaseLayoutWrapper, Content, FooterContent, FooterWrapper } from './style'
 
 const BaseLayout = (props) => {
     const {children} = props;

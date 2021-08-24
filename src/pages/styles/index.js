@@ -1,16 +1,15 @@
 import styled from 'styled-components'
 import { Link } from 'gatsby'
+import Img from 'gatsby-image'
 
 export const Section = styled.section`
-display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
-  align-items: center;
+  align-items: top;
 `;
 
 export const Content = styled.div``;
-
-export const Heading = styled.h1``;
 
 export const Heading2 = styled.h2`
 font-size: 4em;
@@ -21,10 +20,6 @@ font-size: 3em;
   font-weight: 400;
   margin-bottom: 20px;
 `;
-
-export const Heading4 = styled.h4``;
-
-export const Heading5 = styled.h5``;
 
 export const Paragraph = styled.p``;
 
@@ -38,6 +33,10 @@ display: inline-block;
   color: white;
   &&:hover {
     color: white;
-    transform: scale(1.1  );
+    transform: scale(1.1);
   }
+`;
+
+export const Image = styled(Img)`
+ max-width: 100%;
 `;

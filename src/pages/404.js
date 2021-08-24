@@ -3,7 +3,7 @@ import BaseLayout from '../components/Layout/Layout'
 import { GlobalStyle } from '../style/global'
 import { Content, Heading2, Paragraph } from './styles/404'
 
-export default function NotFound() {
+const NotFound = () => {
     return (
         <>
         <GlobalStyle />
@@ -15,4 +15,6 @@ export default function NotFound() {
         </BaseLayout>
         </>
     )
-}
+};
+
+export default NotFound;
